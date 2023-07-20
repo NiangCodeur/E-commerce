@@ -1,0 +1,180 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+} 
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+}
+ a{
+    text-decoration: none;
+    color: #555;
+}
+
+ .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-2 {
+    position: relative;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+     /* max-width: 100%;  */
+    padding: 0px;
+    width: 1000px;
+    margin-top: -20%;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    display: inline-block;
+    background: #fb911f;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition:  0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+header .row {
+    margin-top: 70px;
+} 
+/*-------- produits --------*/ 
+.small-container{
+    max-width: 1080px; 
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-3 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    transition: 0.5s;
+    text-align: center;
+}
+.col-3 img{
+    width: 100%;
+    box-shadow: 20px 20px 30px #777;
+}
+.title{
+    text-align: center;
+    color: #555;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.title span{
+    color: #fb911f;
+    font-size: 1.5em;
+}
+h4{
+    color: #555;
+}
+.col-3 p{
+    font-size: 14px;
+}
+.icons{
+    color: #fb911f;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+/*----------formulaire----------*/ 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 100px;
+}
+form {
+    position: relative;
+    width: 600px;
+    padding: 40px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    flex-direction: column;
+    border-radius: 20px;
+}
+h2 {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    color: #fb911f;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+input{
+    width: 500px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+::placeholder {
+    color: #fff;
+}  
+textarea {
+    padding: 10px; 
+    font-size: 16px;
+}
+input[type="submit"] {
+    display: inline-block;
+    background: #fb911f;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+} 
+input[type="submit"]:hover{
+    color: #555;
+    background-color: #fff;
+}
